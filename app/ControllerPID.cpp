@@ -1,5 +1,5 @@
 /**
- * @file main.cpp
+ * @file ControllerPID.cpp
  * @author Manu Madhu Pillai (manump@umd.edu)
  * @brief PID controller for robot control
  * @version 0.1
@@ -8,11 +8,13 @@
  * @copyright Copyright (c) 2022
  * 
  */
-#include <iostream>
-#include <ControllerPID.hpp>
+#include "ControllerPID.hpp"
 
-int main()
-{
-    dummy();
-    return 0;
+using namespace PID;
+
+ControllerPID::ControllerPID(){
+
+}
+ControllerPID::~ControllerPID(){
+
 }
