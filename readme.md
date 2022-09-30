@@ -1,14 +1,16 @@
-# C++ Boilerplate
+# PID Controller : Test Driven Development
 [![Build Status](https://travis-ci.org/dpiet/cpp-boilerplate.svg?branch=master)](https://travis-ci.org/dpiet/cpp-boilerplate)
 [![Coverage Status](https://coveralls.io/repos/github/dpiet/cpp-boilerplate/badge.svg?branch=master)](https://coveralls.io/github/dpiet/cpp-boilerplate?branch=master)
 ---
 
+## Authors
+### Phase 1
+- **Driver** : Manu Madhu Pillai 
+- **Navigator** : Arshad Shaik
 ## Overview
 
-Simple starter C++ project with:
-
-- cmake
-- googletest
+- Test Driven Development exercise
+- [PID controller](https://en.wikipedia.org/wiki/PID_controller) implementation for a new mobile robot product development
 
 ## Standard install via command-line
 ```
