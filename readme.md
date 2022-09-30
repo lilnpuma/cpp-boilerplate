@@ -12,10 +12,13 @@
 - Test Driven Development exercise
 - [PID controller](https://en.wikipedia.org/wiki/PID_controller) implementation for a new mobile robot product development
 
+## UML Class Diagram 
+!["UML Class Diagram"](./UML%20diagram.jpeg)
 ## Standard install via command-line
 ```
-git clone --recursive https://github.com/dpiet/cpp-boilerplate
+git clone --recursive https://github.com/lilnpuma/cpp-boilerplate
 cd <path to repository>
+git checkout Test-Driven-Development 
 mkdir build
 cd build
 cmake ..
