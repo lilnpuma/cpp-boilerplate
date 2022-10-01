@@ -1,6 +1,6 @@
 # PID Controller : Test Driven Development
-[![Build Status](https://travis-ci.org/dpiet/cpp-boilerplate.svg?branch=master)](https://travis-ci.org/dpiet/cpp-boilerplate)
-[![Coverage Status](https://coveralls.io/repos/github/dpiet/cpp-boilerplate/badge.svg?branch=master)](https://coveralls.io/github/dpiet/cpp-boilerplate?branch=master)
+[![Build Status](https://app.travis-ci.com/lilnpuma/cpp-boilerplate.svg?branch=Test-Driven-Development)](https://app.travis-ci.com/lilnpuma/cpp-boilerplate)
+[![Coverage Status](https://coveralls.io/repos/github/lilnpuma/cpp-boilerplate/badge.svg?branch=Test-Driven-Development)](https://coveralls.io/github/lilnpuma/cpp-boilerplate?branch=Test-Driven-Development)
 ---
 
 ## Authors
