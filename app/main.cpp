@@ -9,10 +9,10 @@
  * 
  */
 #include <iostream>
-#include <ControllerPID.hpp>
 #include <string>
+#include <ControllerPID.hpp>
 
-int main(){
+int main() {
     std::string target;
     std::cout << " Input Target Velocity: ";
     std::getline(std::cin, target);
@@ -22,11 +22,11 @@ int main(){
     std::cout <<" PID Values: "
               <<std::get<0>(controller.getGains()) <<", "
               <<std::get<1>(controller.getGains()) <<", "
-              <<std::get<2>(controller.getGains()) 
+              <<std::get<2>(controller.getGains())
               <<"\nCurrent Velocity: " << velocity_current
               <<"\nTarget Velocity: " << velocity_target
-              <<"\nOutput Velocity: " << controller.compute(velocity_target, velocity_current)
+              <<"\nOutput Velocity: "
+              << controller.compute(velocity_target, velocity_current)
               <<"\nError: " << controller.getError();
-    
     return 0;
 }

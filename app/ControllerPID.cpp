@@ -8,30 +8,31 @@
  * @copyright Copyright (c) 2022
  * 
  */
-#include "ControllerPID.hpp"
-#include <tuple>
 
-using namespace PID;
+#include <tuple>
+#include "../include/ControllerPID.hpp"
+
+namespace PID {
 
 ControllerPID::ControllerPID(double p, double i, double d)
     :kp{p}, ki{i}, kd{d} {
-
 }
 
-ControllerPID::ControllerPID(){
+ControllerPID::ControllerPID() {
 }
 
-ControllerPID::~ControllerPID(){
+ControllerPID::~ControllerPID() {
 }
 
-double ControllerPID::compute(double velocity_target, double velocity_current){
+double ControllerPID::compute(double velocity_target, double velocity_current) {
     return 0.0;
 }
 
-std::tuple<double, double, double> ControllerPID::getGains(){
+std::tuple<double, double, double> ControllerPID::getGains() {
     return std::tuple<double, double, double>(kp, ki, kd);
 }
 
-double ControllerPID::getError(){
+double ControllerPID::getError() {
     return error;
 }
+}  // namespace PID
