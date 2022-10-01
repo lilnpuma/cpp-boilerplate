@@ -32,6 +32,6 @@ std::tuple<double, double, double> ControllerPID::getGains(){
     return std::tuple<double, double, double>(kp, ki, kd);
 }
 
-double ControllerPID::getError{
+double ControllerPID::getError(){
     return error;
 }
