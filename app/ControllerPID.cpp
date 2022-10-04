@@ -1,7 +1,7 @@
 /**
  * @file ControllerPID.cpp
  * @author Manu Madhu Pillai (manump@umd.edu) (Driver) and Arshad Shaik (Navigator)
- * @brief PID controller for robot control
+ * @brief PID controller class method implementation
  * @version 0.1
  * @date 2022-09-30
  * 
