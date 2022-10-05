@@ -18,12 +18,15 @@
 
 ## To-Do List
 
-- #include "../include/ControllerPID.hpp" instead of #include <ControllerPID.hpp>
-- Place tuple header over user defined header - .hpp
 - Perform implementation part in the compute function
 - Perform defined tests until success
 - Run lcov to check the coverage and update in the coverage_lcov folder
 - Run cppcheck and cpplint and update the results in the results/*.txt files
+
+## Tasks Done
+
+- #include "../include/ControllerPID.hpp" instead of #include <ControllerPID.hpp>
+- Place tuple header over user defined header - .hpp
 
 ## UML Class Diagram 
 !["UML Class Diagram"](./UML%20diagram.jpeg)
