@@ -40,7 +40,7 @@ cd build
 cmake ..
 make
 Run tests: ./test/cpp-test
-Run program: ./app/shell-app
+Run program: ./app/controller-PID 
 ```
 
 ## Building for code coverage (for assignments beginning in Week 4)
@@ -60,7 +60,7 @@ In your Eclipse workspace directory (or create a new one), checkout the repo (an
 ```
 mkdir -p ~/workspace
 cd ~/workspace
-git clone --recursive https://github.com/dpiet/cpp-boilerplate
+git clone --recursive https://github.com/lilnpuma/cpp-boilerplate
 ```
 
 In your work directory, use cmake to create an Eclipse project for an [out-of-source build] of cpp-boilerplate
@@ -92,7 +92,7 @@ unfold Build Targets, double click on "all" to build all projects.
 1. In Eclipse, right click on the boilerplate-eclipse in Project Explorer,
 select Run As -> Local C/C++ Application
 
-2. Choose the binaries to run (e.g. shell-app, cpp-test for unit testing)
+2. Choose the binaries to run (e.g. controller-PID , cpp-test for unit testing)
 
 
 ## Debug
@@ -102,7 +102,7 @@ select Run As -> Local C/C++ Application
 the program to break).
 
 2. In Eclipse, right click on the boilerplate-eclipse in Project Explorer, select Debug As -> 
-Local C/C++ Application, choose the binaries to run (e.g. shell-app).
+Local C/C++ Application, choose the binaries to run (e.g. controller-PID ).
 
 3. If prompt to "Confirm Perspective Switch", select yes.
 
