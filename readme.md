@@ -7,10 +7,23 @@
 ### Phase 1
 - **Driver** : Manu Madhu Pillai 
 - **Navigator** : Arshad Shaik
+
+### Phase 2
+- **Driver** : Shail Kiritkumar Shah 
+- **Navigator** : Guru Nandhan A D P
 ## Overview
 
 - Test Driven Development exercise
 - [PID controller](https://en.wikipedia.org/wiki/PID_controller) implementation for a new mobile robot product development
+
+## To-Do List
+
+- #include "../include/ControllerPID.hpp" instead of #include <ControllerPID.hpp>
+- Place tuple header over user defined header - .hpp
+- Perform implementation part in the compute function
+- Perform defined tests until success
+- Run lcov to check the coverage and update in the coverage_lcov folder
+- Run cppcheck and cpplint and update the results in the results/*.txt files
 
 ## UML Class Diagram 
 !["UML Class Diagram"](./UML%20diagram.jpeg)
